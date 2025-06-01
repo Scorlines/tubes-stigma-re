@@ -5,7 +5,7 @@ from colorama import Back, Fore, Style, init
 from game.api import Api
 from game.board_handler import BoardHandler
 from game.bot_handler import BotHandler
-from game.logic.testing import RandomLogic
+from game.logic.testing import MpokZenBot as TestingBot
 from game.util import *
 from game.logic.base import BaseLogic
 from game.logic.MpokZen import MpokZenBot
